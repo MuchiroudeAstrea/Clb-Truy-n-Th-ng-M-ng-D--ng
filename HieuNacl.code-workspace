@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../HieuH2)"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "HieuNacl"
+	}
+}

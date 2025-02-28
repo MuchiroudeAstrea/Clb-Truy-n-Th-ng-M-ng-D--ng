@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CLB truyền thông</title>
+    <style>
+       h2{
+        font-size: 30px
+      }
+      h1{
+        font-size: 15px
+      }
+button:hover {
+           background-color: #434040;
+}    
+        .info {
+            margin-top: 20px;
+            font-size: 18px;
+            color: #333;
+            padding: 10px;
+            border: 1px solid #ccc;
+            margin-bottom: 10px;
+        }
+            .container{
+        max-width: 960px ;
+        margin: 0px auto;
+
+      }
+      #header{
+        background-color:black;
+      }
+      nav{
+        display:flex;
+        justify-content:space-between;
+        justify-items:center;
+      }
+      #main-menu{
+        display: flex;
+        list-style: none ;
+        margin:0%;
+        padding:0%;
+       }
+       #main-menu li a{
+        color:aliceblue;
+        display:block;
+        padding:18px 20px;
+        text-decoration: none ;
+       }
+     
+      button {
+        border-radius: 10px;
+       background-color: #000000;
+        border: none;
+       color: white;
+       padding: 2px 10px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+         font-size: 10px;
+          margin: 4px 2px;
+          cursor: pointer;
+}
+            button:hover {
+           background-color: #434040;
+}    
+      li{
+        text-align: left;
+        font-size: 25px ;
+        font-family:'Times New Roman', Times, serif;
+      }
+      .table-container {
+     
+        flex-direction: column;
+        gap: 20px;
+        padding: 20px;
+      }
+      .table-row {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+      }
+    </style>
+</head>
+<body>
+  <div id="wrapper">
+    <div id="header">
+     <nav class="container">
+      <img src>
+       
+       <ul id="main-menu" >
+         <button  >
+           <li><a href="/index.html">Trang Chủ</a></li> 
+       </button>
+       <button  >
+        <li><a href="/Poster.html">Poster</a></li> 
+    </button>
+       <button  >
+        <li><a href="/Thông tin.html">Thông tin</a></li> 
+    </button>
+       <button  >
+         <li><a href="/Hoạt Động.html">Hoạt Động</a></li> 
+     </button>
+     <button  >
+       <li><a href="/Tuyển thành viên.html">Thành viên</a></li>
+   </button>
+   
+       </ul>
+     </nav>
+    </div>
+    
+</div>
+  </div>
+ <h2>Cách thành viên chính</h2>
+    <div style="box-shadow: rgba(0, 0, 0, 0.4) 0px 0px 10px;  box-sizing: inherit; margin-bottom: 10px; padding: 1px; box-sizing: inherit; line-height: 1.6em; padding: 15px;">
+      <div class="table-row">
+        <ul>
+          <li>
+            <img src="/Hình ảnh/DL.jpg" height="100px">
+          </li>
+        </ul>
+        <ul>  
+          <div><button onclick="showInfo('info1', 'Học sinh lớp 12A1 trường THPT Mông Dương, vai trò : Chủ nhiệm,Trưởng ban Thiết kế')"><h1>Nguyễn Diệu Linh</h1></button>
+              </script></div>
+              <div id="info1" class="info"></div>
+        </ul>
+        
+        <ul> 
+      </div>
+    </div>
+    <div style="box-shadow: rgba(0, 0, 0, 0.4) 0px 0px 10px;  box-sizing: inherit; margin-bottom: 10px; padding: 10px; box-sizing: inherit; line-height: 1.6em; padding: 15px;">
+      <div class="table-row">
+        <ul>
+          <li>
+            <img src="/Hình ảnh/Ly.jpg" height="100px">
+          </li>
+        </ul>
+        <ul>  
+          <button onclick="showInfo('info2', 'Học sinh lớp 12A4 trường THPT Mông Dương, vai trò : Phó chủ nhiệm,Trưởng ban Nội dung')"><h1>Nguyễn Thuỳ Ly</h1></button>
+              </script>
+              <div id="info2" class="info"></div>
+        </ul>
+       
+        <ul> 
+      </div>
+    </div>
+    <div style="box-shadow: rgba(0, 0, 0, 0.4) 0px 0px 10px;  box-sizing: inherit; margin-bottom: 10px; padding: 10px; box-sizing: inherit; line-height: 1.6em; padding: 15px;">
+      <div class="table-row">
+        <ul>
+          <li>
+            <img src="/Hình ảnh/Hoàng.png" height="110px">
+          </li>
+        </ul>
+        <ul>  
+          <button onclick="showInfo('info3', 'Học sinh lớp 12A1 trường THPT Mông Dương, vai trò : Trưởng ban Hình ảnh - Kỹ thuật')"><h1>Nguyễn Huy Hoàng</h1></button>
+              </script>
+              <div id="info3" class="info"></div>
+        </ul>
+      
+        <ul> 
+      </div>
+    </div>
+    <div style="box-shadow: rgba(0, 0, 0, 0.4) 0px 0px 10px;  box-sizing: inherit; margin-bottom: 10px; padding: 10px; box-sizing: inherit; line-height: 1.6em; padding: 15px;">
+      <div class="table-row">
+        <ul>
+          <li>
+            <img src="/Hình ảnh/phuonwg.png" height="100px">
+          </li>
+        </ul>
+        <ul>  
+          <button onclick="showInfo('info4', 'Học sinh lớp 12A1 trường THPT Mông Dương, vai trò : Trưởng ban Nhân sự')"><h1>Nguyễn Thu Phương</h1></button>
+              </script>
+              <div id="info4" class="info"></div>
+        </ul>
+        
+        <ul> 
+      </div>
+    </div>
+    <div style="box-shadow: rgba(0, 0, 0, 0.4) 0px 0px 10px;  box-sizing: inherit; margin-bottom: 10px; padding: 10px; box-sizing: inherit; line-height: 1.6em; padding: 15px;">
+      <div class="table-row">
+        <ul>
+          <li>
+            <img src="/Hình ảnh/Chi.jpg" height="100px">
+          </li>
+        </ul>
+        <ul>  
+          <button onclick="showInfo('info5', 'Học sinh lớp 11A2 trường THPT Mông Dương, vai trò : Trưởng ban Phát Thanh')"><h1>Phạm Hà Quỳnh Chi</h1></button>
+              </script>
+              <div id="info5" class="info"></div>
+        </ul>
+        
+        <ul> 
+      </div>
+    </div>
+    <script>
+        function showInfo(infoId, infoText) {
+            document.getElementById(infoId).innerText = infoText;
+        }
+    </script>
+    <h2>Một số thành viên khác</h2>
+    <div style="box-shadow: rgba(0, 0, 0, 0.4) 0px 0px 10px;  box-sizing: inherit; margin-bottom: 10px; padding: 10px; box-sizing: inherit; line-height: 1.6em; padding: 15px;">
+      <div class="table-row">
+        <ul>
+          <li>Nguyễn Hà Anh 10a1</li>
+          <li>Nguyễn Phương Anh 10a4</li>
+          <li>Đào Thị Yến Nhi 10a4</li>
+          
+        </ul> 
+        <ul>
+          <li>Nguyễn Hà Trang 11a4</li>
+          <li>Lại Thị Minh Nghĩa 11a2</li>
+          <li>Nguyễn Thị Hương Mơ 10a1</li>
+        </ul>   
+        <ul>
+          <li>Phạm Quỳnh Anh 12a3</li>
+          <li>Nguyễn Trang Thùy 10a1</li>
+          <li>Nguyễn Thị Linh Hương 12a1</li>
+        </ul> 
+        <ul>
+          <li>Đào Thị Yến Nhi 10a4</li>
+          <li>Nguyễn Thu Phương 12a4</li>
+        </ul> 
+        <ul>
+          <li><img src="/logo.png" height="100px"></li></ul>
+        </ul>
+      </div>
+    </div>
+</body>
+</html>
